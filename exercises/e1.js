@@ -14,9 +14,11 @@
 */
 
 // Your code goes here
-
-
-
+var message= "Hello,World!"
+function logMessage(message) {
+  return (message)
+}
+console.log(logmessage)
 
 /**
  * =============================================================
@@ -30,6 +32,10 @@
 */
 
 // Your code goes here...
+var logmessage ="My message"
+function logMessage(logMessage) {
+  console.log(logmessage)
+}
 
 
 
