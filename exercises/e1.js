@@ -14,11 +14,13 @@
 */
 
 // Your code goes here
-var message= "Hello,World!"
-function logMessage(message) {
-  return (message)
+let message= "Hello,World!";
+
+function logMessage() {
+console.log (message);
 }
-console.log(logmessage)
+
+logMessage();
 
 /**
  * =============================================================
@@ -32,10 +34,14 @@ console.log(logmessage)
 */
 
 // Your code goes here...
-var logmessage ="My message"
+/* var Message = "My message";
+
 function logMessage(logMessage) {
-  console.log(logmessage)
-}
+  Message=true;
+  console.log(message)
+} 
+
+logMessage() */
 
 
 
