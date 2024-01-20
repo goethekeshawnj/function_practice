@@ -34,14 +34,12 @@ logMessage();
 */
 
 // Your code goes here...
-/* var Message = "My message";
 
-function logMessage(logMessage) {
-  Message=true;
-  console.log(message)
-} 
+function logmyMessage() {
+console.log ("I log my first message!");
+}
 
-logMessage() */
+logmyMessage()
 
 
 
@@ -57,8 +55,14 @@ logMessage() */
 */
 
 // Your code goes here...
+/* let myname = "My name is + /${name}";
 
-
+function logMessageWithMyName() {
+  console.log (myname.name);
+  }
+  
+  logmyMessage(Keshawn); */
+  
 
 
 /**
