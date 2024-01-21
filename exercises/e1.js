@@ -55,13 +55,13 @@ logmyMessage()
 */
 
 // Your code goes here...
-/* let myname = "My name is + /${name}";
-
-function logMessageWithMyName() {
-  console.log (myname.name);
+var Name = " Keshawn";
+var Log= "My name is"+(Name);
+function logMessageWithMyName(Name) {
+  console.log (Log);
   }
-  
-  logmyMessage(Keshawn); */
+
+logMessageWithMyName()
   
 
 
