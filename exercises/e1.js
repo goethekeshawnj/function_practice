@@ -78,8 +78,10 @@ logMessageWithMyName()
 
 // Your code goes here...
 
-
-
+/* myName + name + myAge + age */
+/* myName= :"My name is" */
+/* myAge = "I am + ${age} + years old" */
+/* age = ${""} */
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
