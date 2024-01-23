@@ -14,10 +14,10 @@
 */
 
 // Your code goes here
-let message= "Hello,World!";
 
 function logMessage() {
-console.log (message);
+console.log ("Hello,World!");
+return console.log
 }
 
 logMessage();
@@ -35,11 +35,11 @@ logMessage();
 
 // Your code goes here...
 
-function logmyMessage() {
-console.log ("I log my first message!");
+function logmyMessage(message) {
+console.log (message);
 }
 
-logmyMessage()
+logmyMessage('I log my first message!')
 
 
 
@@ -55,15 +55,12 @@ logmyMessage()
 */
 
 // Your code goes here...
-var Name = " Keshawn";
-var Log= "My name is"+(Name);
-function logMessageWithMyName(Name) {
-  console.log (Log);
-  }
+function logMessageWithMyName(name) {
+  console.log ("My name is "+(name));
+  return console.log();
+  };
 
-logMessageWithMyName()
-  
-
+logMessageWithMyName("Keshawn")
 
 /**
  * ==============================================================
@@ -77,11 +74,11 @@ logMessageWithMyName()
 */
 
 // Your code goes here...
-
-/* myName + name + myAge + age */
-/* myName= :"My name is" */
-/* myAge = "I am + ${age} + years old" */
-/* age = ${""} */
+function logMyInfo(name,age){
+  console.log("My name is " +(name) + (age));
+  return console.log()
+  }
+  logMyInfo("Keshawn ",20);
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-1"
