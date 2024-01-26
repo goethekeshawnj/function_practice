@@ -13,7 +13,13 @@
 
 // Your code goes here...
 
-
+function getDiffTwentySeven (num) {
+  var double =  num / 27;
+  if (num > 27 )
+  {
+     return double * 2;
+  }
+}
 
 
 /** =========================
@@ -24,6 +30,14 @@
  */
 
 // Your code goes here
+
+var sumOfTwoIntegers= (num1,num2) => { 
+  var sumInt = num1 + num2;
+  if (num1 == num2)
+  {
+    return sumInt ** 3 ;
+  }
+}
 
 
 
@@ -39,7 +53,18 @@
 
 // Your code goes here...
 
+isOneOfThemOrTheirSumIsFourty=function (num1, num2)
+{
+  if (num1 || num2 >= 40)
+  {
+    return true;
+  }
 
+  else
+  {
+    return false;
+  }
+}
 
 
 // === TEST YOURSELF ===

@@ -64,8 +64,6 @@ const result = function () {
     console.log(room1 + room2 + room3);
 }
 
-
-
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-2"
 // If the test has all tests passed, switch to the next exercise file

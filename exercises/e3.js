@@ -15,8 +15,65 @@
  */
 
 // Your code goes here...
+/* This function code name does not follow nameing rules */
 
+// function doesArrayIncludeItemsBetweenValsf(arr, val1, val2)
+// {
+//   if(arr > val1 && arr < val2)
 
+//   {
+//     return true;
+//   }
+  
+//   else{
+//     return false;
+//   }
+//   return (arr,val1,val2);
+ 
+// };
+
+// doesArrayIncludeItemsBetweenValsf(10,5,19);
+/* function doesArrayIncludeItemsBetweenValsf(arr, val1, val2)
+ {
+   doesArrayIncludeItemsBetweenValsf(arr,val1,val2)
+   
+   if(arr > val1 && arr < val2)
+
+  {
+         true;
+         return console.log(doesArrayIncludeItemsBetweenValsf());
+   }
+  
+   else{
+     false;
+     return console.log(doesArrayIncludeItemsBetweenValsf());
+   }
+
+ };
+
+ doesArrayIncludeItemsBetweenValsf(10,5,19); */
+
+ function doesArrayIncludeItemsBetweenValsf(arr, val1, val2)
+ {
+  
+   
+   if(arr > val1 && arr < val2)
+  {
+    return console.log(true);
+       
+   }
+  
+   else{
+     
+     return console.log(false);
+   }
+
+    doesArrayIncludeItemsBetweenValsf(arr,val1,val2);
+
+ }
+
+ doesArrayIncludeItemsBetweenValsf(10,5,19);
+ 
 
 
 /**
@@ -36,8 +93,22 @@
 
 // Your code goes here...
 
+function getValueWithConditionOne(value1,value2)
+{
+  if  (value1 && value2 == 40) { return console.log(value1 + value2)}
+  else{return console.log((value1 *2) + (value2 *2))}
+};
 
+const getValueWithConditionTwo = (numb1,numb2) => { 
+  if  (value1 && value2 == 40) { return console.log(value1 + value2)}
+  else{return console.log((value1 *2) + (value2 *2))}
+};
 
+const getValueWithConditionThree = function(numb3,numb4)
+{
+  if  (value1 && value2 == 40) { return console.log(value1 + value2)}
+  else{return console.log((value1 *2) + (value2 *2))}
+};
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-3"
