@@ -11,11 +11,11 @@
 */
 
 // Your function code starts here...
-function rectarea(sideA,sideB)
+function rectArea(sideA,sideB)
 {
-  return console.log(sideA * sideB)
+  return sideA * sideB;
 }
-rectarea(3,2);
+
 
 
 
@@ -27,14 +27,9 @@ rectarea(3,2);
 
 // Your code goes here:
 
-var reactArea= function reactArea(sideA,sideB)
-{
-   return ((sideA*sideB));
-};
-
-var room1 =reactArea(4,6) + " Room1";
-var room2 = reactArea(13,3) + " Room2";
-var room3 = reactArea(4,8) + " Room3";
+let room1 =rectArea(4,6) ;
+let room2 = rectArea(13,3) ;
+let room3 = rectArea(4,8) ;
 
 console.log(room1,room2,room3);
 
@@ -51,10 +46,9 @@ console.log(room1,room2,room3);
 // Your code goes here...
 function totalRoomsArea(roomArea1 , roomArea2 , roomArea3){
 
-  return console.log (roomArea1 + roomArea2 + roomArea3);
+  return roomArea1 + roomArea2 + roomArea3;
 };
 
-totalRoomsArea(34,30,39);
 
 
 

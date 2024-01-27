@@ -46,7 +46,7 @@ const isNameInArray = (arr, name) =>{
 
 const logSecondsUpToMax = (max) => {
   let i = 0;
- setInterval(timer => {
+  let timer = setInterval(()=> {
     if (i < max) {
       console.log(++i);
     } else {

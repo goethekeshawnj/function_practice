@@ -17,62 +17,17 @@
 // Your code goes here...
 /* This function code name does not follow nameing rules */
 
-// function doesArrayIncludeItemsBetweenValsf(arr, val1, val2)
-// {
-//   if(arr > val1 && arr < val2)
-
-//   {
-//     return true;
-//   }
-  
-//   else{
-//     return false;
-//   }
-//   return (arr,val1,val2);
- 
-// };
-
-// doesArrayIncludeItemsBetweenValsf(10,5,19);
-/* function doesArrayIncludeItemsBetweenValsf(arr, val1, val2)
+ function doesArrayIncludeItemsBetweenVals(arr, val1, val2)
  {
-   doesArrayIncludeItemsBetweenValsf(arr,val1,val2)
-   
-   if(arr > val1 && arr < val2)
-
+   if( arr > val1 && arr < val2)
   {
-         true;
-         return console.log(doesArrayIncludeItemsBetweenValsf());
-   }
-  
-   else{
-     false;
-     return console.log(doesArrayIncludeItemsBetweenValsf());
-   }
+    return true;
+  }
 
- };
-
- doesArrayIncludeItemsBetweenValsf(10,5,19); */
-
- function doesArrayIncludeItemsBetweenValsf(arr, val1, val2)
- {
-  
-   
-   if(arr > val1 && arr < val2)
-  {
-    return console.log(true);
-       
-   }
-  
-   else{
-     
-     return console.log(false);
-   }
-
-    doesArrayIncludeItemsBetweenValsf(arr,val1,val2);
-
- }
-
- doesArrayIncludeItemsBetweenValsf(10,5,19);
+    else {
+      return false;
+    }
+}
  
 
 
@@ -95,19 +50,19 @@
 
 function getValueWithConditionOne(value1,value2)
 {
-  if  (value1 && value2 == 40) { return console.log(value1 + value2)}
-  else{return console.log((value1 *2) + (value2 *2))}
+  if  (value1 == 40 && value2 == 40) { return 80;}
+  else{return (value1 *2) + (value2 *2);}
 };
 
 const getValueWithConditionTwo = (numb1,numb2) => { 
-  if  (value1 && value2 == 40) { return console.log(value1 + value2)}
-  else{return console.log((value1 *2) + (value2 *2))}
+  if  (numb1 == 40 && numb2 == 40) { return 80;}
+  else{return (numb1 *2) + (numb2 *2);}
 };
 
 const getValueWithConditionThree = function(numb3,numb4)
 {
-  if  (value1 && value2 == 40) { return console.log(value1 + value2)}
-  else{return console.log((value1 *2) + (value2 *2))}
+  if  (numb3 == 40 && numb4 == 40) { return 80;}
+  else{return (numb3 *2) + (numb4 *2);}
 };
 
 // === TEST YOURSELF ===
