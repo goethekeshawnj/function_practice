@@ -17,19 +17,13 @@
 // Your code goes here...
 /* This function code name does not follow nameing rules */
 
- function doesArrayIncludeItemsBetweenVals(arr, val1, val2)
- {
-   if( arr > val1 && arr < val2)
-  {
-    return true;
-  }
-
-    else {
-      return false;
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
+  for (let i = 0; i < arr.length; i++)
+    if (arr[i] > val1 && arr[i] < val2) {
+      return true;
     }
+  return false;
 }
- 
-
 
 /**
  * ====================================================
@@ -39,30 +33,38 @@
  * Arrow Function name: getValueWithConditionTwo;
  * Variable name for the function expression: getValueWithConditionThree;
  * All three functions resolve the same task:
-    * The function takes two numbers as arguments
-    * If the numbers are both equal to 40, return the sum of them
-    * Else return the doubled sum of them
+ * The function takes two numbers as arguments
+ * If the numbers are both equal to 40, return the sum of them
+ * Else return the doubled sum of them
  * getValueWithConditionOne(40, 40) => 80;
  * getValueWithConditionOne(20, 30) => 100;
  */
 
 // Your code goes here...
 
-function getValueWithConditionOne(value1,value2)
-{
-  if  (value1 == 40 && value2 == 40) { return 80;}
-  else{return (value1 *2) + (value2 *2);}
+function getValueWithConditionOne(value1, value2) {
+  if (value1 == 40 && value2 == 40) {
+    return 80;
+  } else {
+    return (value1 + value2) * 2;
+  }
+}
+
+const getValueWithConditionTwo = (value1, value2) => {
+  if (value1 == 40 && value2 == 40) {
+    return 80;
+  } else {
+    return (value1 + value2) * 2;
+  }
 };
 
-const getValueWithConditionTwo = (numb1,numb2) => { 
-  if  (numb1 == 40 && numb2 == 40) { return 80;}
-  else{return (numb1 *2) + (numb2 *2);}
-};
-
-const getValueWithConditionThree = function(numb3,numb4)
-{
-  if  (numb3 == 40 && numb4 == 40) { return 80;}
-  else{return (numb3 *2) + (numb4 *2);}
+const getValueWithConditionThree = function (value1, value2) {
+  value1;
+  if (value1 == 40 && value2 == 40) {
+    return value1 + value2;
+  } else {
+    return (value1 + value2) * 2;
+  }
 };
 
 // === TEST YOURSELF ===
@@ -70,12 +72,12 @@ const getValueWithConditionThree = function(numb3,numb4)
 // If the test has all tests passed, switch to the next exercise file
 // If any of the tests fails, refactor the code and run the test command after you've fixed the function
 
-
 // Do not delete or change the lines beneath
 const f = {
-  doesArrayIncludeItemsBetweenVals: doesArrayIncludeItemsBetweenVals || undefined,
+  doesArrayIncludeItemsBetweenVals:
+    doesArrayIncludeItemsBetweenVals || undefined,
   getValueWithConditionOne: getValueWithConditionOne || undefined,
   getValueWithConditionTwo: getValueWithConditionTwo || undefined,
   getValueWithConditionThree: getValueWithConditionThree || undefined,
-}
+};
 export { f };
